@@ -1,0 +1,103 @@
+2021-09-09 16:31:53.879 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2021-09-09 16:31:53.891 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] INBOUND SETTINGS: ack=false settings={}
+2021-09-09 16:31:53.893 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] OUTBOUND SETTINGS: ack=true
+2021-09-09 16:31:53.893 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] INBOUND SETTINGS: ack=true
+2021-09-09 16:31:53.901 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] INBOUND HEADERS: streamId=1 headers=GrpcHttp2RequestHeaders[:path: /protos.Chaincode/Connect, :authority: 192.168.196.1:9999, :method: POST, :scheme: http, te: trailers, content-type: application/grpc, user-agent: grpc-go/1.29.1] padding=0 endStream=false
+2021-09-09 16:31:54.110 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] OUTBOUND HEADERS: streamId=1 headers=GrpcHttp2OutboundHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2021-09-09 16:31:54.115 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] OUTBOUND DATA: streamId=1 padding=0 endStream=false length=83 bytes=000000004e08011a4a124854657374484c463a666166326539356630376565623634316463343435653562386331656434643833386530383131306532333366...
+2021-09-09 16:31:54.117 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=83
+2021-09-09 16:31:54.118 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] INBOUND PING: ack=false bytes=145258749040133895
+2021-09-09 16:31:54.118 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] OUTBOUND PING: ack=true bytes=145258749040133895
+2021-09-09 16:31:54.123 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] INBOUND DATA: streamId=1 padding=0 endStream=false length=7 bytes=00000000020802
+2021-09-09 16:31:54.123 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] OUTBOUND PING: ack=false bytes=1234
+2021-09-09 16:31:54.126 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] INBOUND DATA: streamId=1 padding=0 endStream=false length=7 bytes=00000000020804
+2021-09-09 16:31:54.127 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] INBOUND PING: ack=true bytes=1234
+2021-09-09 16:31:58.515 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] OUTBOUND GO_AWAY: lastStreamId=2147483647 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:31:58.517 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] OUTBOUND PING: ack=false bytes=40715087873
+2021-09-09 16:31:58.520 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] INBOUND PING: ack=true bytes=40715087873
+2021-09-09 16:31:58.521 DEBUG grpc-nio-worker-ELG-3-1   NettyServerHandler :: [id: 0x778d26d4, L:/192.168.196.1:9999 - R:/192.168.196.134:38984] OUTBOUND GO_AWAY: lastStreamId=1 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:31:58.525 DEBUG grpc-nio-worker-ELG-3-2   NettyServerHandler :: [id: 0xe99e4ff1, L:/192.168.196.1:9999 - R:/192.168.196.134:38988] OUTBOUND SETTINGS: ack=false settings={=2147483647, =1048576, =104857600}
+2021-09-09 16:31:58.527 DEBUG grpc-nio-worker-ELG-3-2   NettyServerHandler :: [id: 0xe99e4ff1, L:/192.168.196.1:9999 - R:/192.168.196.134:38988] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2021-09-09 16:31:58.529 DEBUG grpc-nio-worker-ELG-3-2   NettyServerHandler :: [id: 0xe99e4ff1, L:/192.168.196.1:9999 - R:/192.168.196.134:38988] INBOUND SETTINGS: ack=false settings={}
+2021-09-09 16:31:58.529 DEBUG grpc-nio-worker-ELG-3-2   NettyServerHandler :: [id: 0xe99e4ff1, L:/192.168.196.1:9999 - R:/192.168.196.134:38988] OUTBOUND SETTINGS: ack=true
+2021-09-09 16:31:58.530 DEBUG grpc-nio-worker-ELG-3-2   NettyServerHandler :: [id: 0xe99e4ff1, L:/192.168.196.1:9999 - R:/192.168.196.134:38988] INBOUND SETTINGS: ack=true
+2021-09-09 16:32:03.280 DEBUG grpc-nio-worker-ELG-3-2   NettyServerHandler :: [id: 0xe99e4ff1, L:/192.168.196.1:9999 - R:/192.168.196.134:38988] OUTBOUND GO_AWAY: lastStreamId=2147483647 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:32:03.283 DEBUG grpc-nio-worker-ELG-3-2   NettyServerHandler :: [id: 0xe99e4ff1, L:/192.168.196.1:9999 - R:/192.168.196.134:38988] OUTBOUND PING: ack=false bytes=40715087873
+2021-09-09 16:32:03.288 DEBUG grpc-nio-worker-ELG-3-3   NettyServerHandler :: [id: 0x46120056, L:/192.168.196.1:9999 - R:/192.168.196.134:38990] OUTBOUND SETTINGS: ack=false settings={=2147483647, =1048576, =104857600}
+2021-09-09 16:32:03.289 DEBUG grpc-nio-worker-ELG-3-3   NettyServerHandler :: [id: 0x46120056, L:/192.168.196.1:9999 - R:/192.168.196.134:38990] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2021-09-09 16:32:03.290 DEBUG grpc-nio-worker-ELG-3-3   NettyServerHandler :: [id: 0x46120056, L:/192.168.196.1:9999 - R:/192.168.196.134:38990] INBOUND SETTINGS: ack=false settings={}
+2021-09-09 16:32:03.290 DEBUG grpc-nio-worker-ELG-3-3   NettyServerHandler :: [id: 0x46120056, L:/192.168.196.1:9999 - R:/192.168.196.134:38990] OUTBOUND SETTINGS: ack=true
+2021-09-09 16:32:03.291 DEBUG grpc-nio-worker-ELG-3-3   NettyServerHandler :: [id: 0x46120056, L:/192.168.196.1:9999 - R:/192.168.196.134:38990] INBOUND SETTINGS: ack=true
+2021-09-09 16:32:08.408 DEBUG grpc-nio-worker-ELG-3-3   NettyServerHandler :: [id: 0x46120056, L:/192.168.196.1:9999 - R:/192.168.196.134:38990] OUTBOUND GO_AWAY: lastStreamId=2147483647 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:32:08.409 DEBUG grpc-nio-worker-ELG-3-3   NettyServerHandler :: [id: 0x46120056, L:/192.168.196.1:9999 - R:/192.168.196.134:38990] OUTBOUND PING: ack=false bytes=40715087873
+2021-09-09 16:32:08.413 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0xc4b5dddf, L:/192.168.196.1:9999 - R:/192.168.196.134:38992] OUTBOUND SETTINGS: ack=false settings={=2147483647, =1048576, =104857600}
+2021-09-09 16:32:08.414 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0xc4b5dddf, L:/192.168.196.1:9999 - R:/192.168.196.134:38992] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2021-09-09 16:32:08.415 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0xc4b5dddf, L:/192.168.196.1:9999 - R:/192.168.196.134:38992] INBOUND SETTINGS: ack=false settings={}
+2021-09-09 16:32:08.415 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0xc4b5dddf, L:/192.168.196.1:9999 - R:/192.168.196.134:38992] OUTBOUND SETTINGS: ack=true
+2021-09-09 16:32:08.415 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0xc4b5dddf, L:/192.168.196.1:9999 - R:/192.168.196.134:38992] INBOUND SETTINGS: ack=true
+2021-09-09 16:32:13.285 DEBUG grpc-nio-worker-ELG-3-2   NettyServerHandler :: [id: 0xe99e4ff1, L:/192.168.196.1:9999 ! R:/192.168.196.134:38988] OUTBOUND GO_AWAY: lastStreamId=0 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:32:13.285 DEBUG grpc-nio-worker-ELG-3-2   Http2ConnectionHandler :: [id: 0xe99e4ff1, L:/192.168.196.1:9999 ! R:/192.168.196.134:38988] Sending GOAWAY failed: lastStreamId '0', errorCode '0', debugData 'max_age'. Forcing shutdown of the connection.
+io.grpc.netty.shaded.io.netty.channel.StacklessClosedChannelException: null
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source) ~[grpc-netty-shaded-1.40.1.jar:1.40.1]
+2021-09-09 16:32:13.665 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0xc4b5dddf, L:/192.168.196.1:9999 - R:/192.168.196.134:38992] OUTBOUND GO_AWAY: lastStreamId=2147483647 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:32:13.665 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0xc4b5dddf, L:/192.168.196.1:9999 - R:/192.168.196.134:38992] OUTBOUND PING: ack=false bytes=40715087873
+2021-09-09 16:32:13.669 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x053b26ea, L:/192.168.196.1:9999 - R:/192.168.196.134:38994] OUTBOUND SETTINGS: ack=false settings={=2147483647, =1048576, =104857600}
+2021-09-09 16:32:13.670 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x053b26ea, L:/192.168.196.1:9999 - R:/192.168.196.134:38994] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2021-09-09 16:32:13.671 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x053b26ea, L:/192.168.196.1:9999 - R:/192.168.196.134:38994] INBOUND SETTINGS: ack=false settings={}
+2021-09-09 16:32:13.671 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x053b26ea, L:/192.168.196.1:9999 - R:/192.168.196.134:38994] OUTBOUND SETTINGS: ack=true
+2021-09-09 16:32:13.671 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x053b26ea, L:/192.168.196.1:9999 - R:/192.168.196.134:38994] INBOUND SETTINGS: ack=true
+2021-09-09 16:32:18.410 DEBUG grpc-nio-worker-ELG-3-3   NettyServerHandler :: [id: 0x46120056, L:/192.168.196.1:9999 ! R:/192.168.196.134:38990] OUTBOUND GO_AWAY: lastStreamId=0 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:32:18.410 DEBUG grpc-nio-worker-ELG-3-3   Http2ConnectionHandler :: [id: 0x46120056, L:/192.168.196.1:9999 ! R:/192.168.196.134:38990] Sending GOAWAY failed: lastStreamId '0', errorCode '0', debugData 'max_age'. Forcing shutdown of the connection.
+io.grpc.netty.shaded.io.netty.channel.StacklessClosedChannelException: null
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source) ~[grpc-netty-shaded-1.40.1.jar:1.40.1]
+2021-09-09 16:32:18.920 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x053b26ea, L:/192.168.196.1:9999 - R:/192.168.196.134:38994] OUTBOUND GO_AWAY: lastStreamId=2147483647 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:32:18.920 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x053b26ea, L:/192.168.196.1:9999 - R:/192.168.196.134:38994] OUTBOUND PING: ack=false bytes=40715087873
+2021-09-09 16:32:18.924 DEBUG grpc-nio-worker-ELG-3-6   NettyServerHandler :: [id: 0xa60b6a71, L:/192.168.196.1:9999 - R:/192.168.196.134:38996] OUTBOUND SETTINGS: ack=false settings={=2147483647, =1048576, =104857600}
+2021-09-09 16:32:18.925 DEBUG grpc-nio-worker-ELG-3-6   NettyServerHandler :: [id: 0xa60b6a71, L:/192.168.196.1:9999 - R:/192.168.196.134:38996] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2021-09-09 16:32:18.926 DEBUG grpc-nio-worker-ELG-3-6   NettyServerHandler :: [id: 0xa60b6a71, L:/192.168.196.1:9999 - R:/192.168.196.134:38996] INBOUND SETTINGS: ack=false settings={}
+2021-09-09 16:32:18.926 DEBUG grpc-nio-worker-ELG-3-6   NettyServerHandler :: [id: 0xa60b6a71, L:/192.168.196.1:9999 - R:/192.168.196.134:38996] OUTBOUND SETTINGS: ack=true
+2021-09-09 16:32:18.927 DEBUG grpc-nio-worker-ELG-3-6   NettyServerHandler :: [id: 0xa60b6a71, L:/192.168.196.1:9999 - R:/192.168.196.134:38996] INBOUND SETTINGS: ack=true
+2021-09-09 16:32:23.667 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0xc4b5dddf, L:/192.168.196.1:9999 ! R:/192.168.196.134:38992] OUTBOUND GO_AWAY: lastStreamId=0 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:32:23.667 DEBUG grpc-nio-worker-ELG-3-4   Http2ConnectionHandler :: [id: 0xc4b5dddf, L:/192.168.196.1:9999 ! R:/192.168.196.134:38992] Sending GOAWAY failed: lastStreamId '0', errorCode '0', debugData 'max_age'. Forcing shutdown of the connection.
+io.grpc.netty.shaded.io.netty.channel.StacklessClosedChannelException: null
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source) ~[grpc-netty-shaded-1.40.1.jar:1.40.1]
+2021-09-09 16:32:23.962 DEBUG grpc-nio-worker-ELG-3-6   NettyServerHandler :: [id: 0xa60b6a71, L:/192.168.196.1:9999 - R:/192.168.196.134:38996] OUTBOUND GO_AWAY: lastStreamId=2147483647 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:32:23.962 DEBUG grpc-nio-worker-ELG-3-6   NettyServerHandler :: [id: 0xa60b6a71, L:/192.168.196.1:9999 - R:/192.168.196.134:38996] OUTBOUND PING: ack=false bytes=40715087873
+2021-09-09 16:32:23.967 DEBUG grpc-nio-worker-ELG-3-7   NettyServerHandler :: [id: 0xb31d6425, L:/192.168.196.1:9999 - R:/192.168.196.134:38998] OUTBOUND SETTINGS: ack=false settings={=2147483647, =1048576, =104857600}
+2021-09-09 16:32:23.968 DEBUG grpc-nio-worker-ELG-3-7   NettyServerHandler :: [id: 0xb31d6425, L:/192.168.196.1:9999 - R:/192.168.196.134:38998] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2021-09-09 16:32:23.970 DEBUG grpc-nio-worker-ELG-3-7   NettyServerHandler :: [id: 0xb31d6425, L:/192.168.196.1:9999 - R:/192.168.196.134:38998] INBOUND SETTINGS: ack=false settings={}
+2021-09-09 16:32:23.970 DEBUG grpc-nio-worker-ELG-3-7   NettyServerHandler :: [id: 0xb31d6425, L:/192.168.196.1:9999 - R:/192.168.196.134:38998] OUTBOUND SETTINGS: ack=true
+2021-09-09 16:32:23.971 DEBUG grpc-nio-worker-ELG-3-7   NettyServerHandler :: [id: 0xb31d6425, L:/192.168.196.1:9999 - R:/192.168.196.134:38998] INBOUND SETTINGS: ack=true
+2021-09-09 16:32:28.541 DEBUG grpc-nio-worker-ELG-3-7   NettyServerHandler :: [id: 0xb31d6425, L:/192.168.196.1:9999 - R:/192.168.196.134:38998] OUTBOUND GO_AWAY: lastStreamId=2147483647 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:32:28.541 DEBUG grpc-nio-worker-ELG-3-7   NettyServerHandler :: [id: 0xb31d6425, L:/192.168.196.1:9999 - R:/192.168.196.134:38998] OUTBOUND PING: ack=false bytes=40715087873
+2021-09-09 16:32:28.547 DEBUG grpc-nio-worker-ELG-3-8   NettyServerHandler :: [id: 0xaeb870e6, L:/192.168.196.1:9999 - R:/192.168.196.134:39000] OUTBOUND SETTINGS: ack=false settings={=2147483647, =1048576, =104857600}
+2021-09-09 16:32:28.548 DEBUG grpc-nio-worker-ELG-3-8   NettyServerHandler :: [id: 0xaeb870e6, L:/192.168.196.1:9999 - R:/192.168.196.134:39000] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2021-09-09 16:32:28.549 DEBUG grpc-nio-worker-ELG-3-8   NettyServerHandler :: [id: 0xaeb870e6, L:/192.168.196.1:9999 - R:/192.168.196.134:39000] INBOUND SETTINGS: ack=false settings={}
+2021-09-09 16:32:28.549 DEBUG grpc-nio-worker-ELG-3-8   NettyServerHandler :: [id: 0xaeb870e6, L:/192.168.196.1:9999 - R:/192.168.196.134:39000] OUTBOUND SETTINGS: ack=true
+2021-09-09 16:32:28.557 DEBUG grpc-nio-worker-ELG-3-8   NettyServerHandler :: [id: 0xaeb870e6, L:/192.168.196.1:9999 - R:/192.168.196.134:39000] INBOUND SETTINGS: ack=true
+2021-09-09 16:32:28.922 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x053b26ea, L:/192.168.196.1:9999 ! R:/192.168.196.134:38994] OUTBOUND GO_AWAY: lastStreamId=0 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:32:28.922 DEBUG grpc-nio-worker-ELG-3-5   Http2ConnectionHandler :: [id: 0x053b26ea, L:/192.168.196.1:9999 ! R:/192.168.196.134:38994] Sending GOAWAY failed: lastStreamId '0', errorCode '0', debugData 'max_age'. Forcing shutdown of the connection.
+io.grpc.netty.shaded.io.netty.channel.StacklessClosedChannelException: null
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source) ~[grpc-netty-shaded-1.40.1.jar:1.40.1]
+
+... (keep repeating the same message) ...
+
+2021-09-09 16:36:48.127 DEBUG grpc-nio-worker-ELG-3-3   NettyServerHandler :: [id: 0x46b886c8, L:/192.168.196.1:9999 - R:/192.168.196.134:39106] OUTBOUND GO_AWAY: lastStreamId=2147483647 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:36:48.127 DEBUG grpc-nio-worker-ELG-3-3   NettyServerHandler :: [id: 0x46b886c8, L:/192.168.196.1:9999 - R:/192.168.196.134:39106] OUTBOUND PING: ack=false bytes=40715087873
+2021-09-09 16:36:48.130 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0x4b440250, L:/192.168.196.1:9999 - R:/192.168.196.134:39108] OUTBOUND SETTINGS: ack=false settings={=2147483647, =1048576, =104857600}
+2021-09-09 16:36:48.130 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0x4b440250, L:/192.168.196.1:9999 - R:/192.168.196.134:39108] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2021-09-09 16:36:48.130 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0x4b440250, L:/192.168.196.1:9999 - R:/192.168.196.134:39108] INBOUND SETTINGS: ack=false settings={}
+2021-09-09 16:36:48.130 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0x4b440250, L:/192.168.196.1:9999 - R:/192.168.196.134:39108] OUTBOUND SETTINGS: ack=true
+2021-09-09 16:36:48.130 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0x4b440250, L:/192.168.196.1:9999 - R:/192.168.196.134:39108] INBOUND SETTINGS: ack=true
+2021-09-09 16:36:52.651 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0x4b440250, L:/192.168.196.1:9999 - R:/192.168.196.134:39108] OUTBOUND GO_AWAY: lastStreamId=2147483647 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:36:52.651 DEBUG grpc-nio-worker-ELG-3-4   NettyServerHandler :: [id: 0x4b440250, L:/192.168.196.1:9999 - R:/192.168.196.134:39108] OUTBOUND PING: ack=false bytes=40715087873
+2021-09-09 16:36:52.657 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x197db757, L:/192.168.196.1:9999 - R:/192.168.196.134:39110] OUTBOUND SETTINGS: ack=false settings={=2147483647, =1048576, =104857600}
+2021-09-09 16:36:52.657 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x197db757, L:/192.168.196.1:9999 - R:/192.168.196.134:39110] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2021-09-09 16:36:52.659 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x197db757, L:/192.168.196.1:9999 - R:/192.168.196.134:39110] INBOUND SETTINGS: ack=false settings={}
+2021-09-09 16:36:52.659 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x197db757, L:/192.168.196.1:9999 - R:/192.168.196.134:39110] OUTBOUND SETTINGS: ack=true
+2021-09-09 16:36:52.662 DEBUG grpc-nio-worker-ELG-3-5   NettyServerHandler :: [id: 0x197db757, L:/192.168.196.1:9999 - R:/192.168.196.134:39110] INBOUND SETTINGS: ack=true
+2021-09-09 16:36:52.966 DEBUG grpc-nio-worker-ELG-3-2   NettyServerHandler :: [id: 0xc0a3592f, L:/192.168.196.1:9999 ! R:/192.168.196.134:39104] OUTBOUND GO_AWAY: lastStreamId=0 errorCode=0 length=7 bytes=6d61785f616765
+2021-09-09 16:36:52.966 DEBUG grpc-nio-worker-ELG-3-2   Http2ConnectionHandler :: [id: 0xc0a3592f, L:/192.168.196.1:9999 ! R:/192.168.196.134:39104] Sending GOAWAY failed: lastStreamId '0', errorCode '0', debugData 'max_age'. Forcing shutdown of the connection.
+io.grpc.netty.shaded.io.netty.channel.StacklessClosedChannelException: null
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source) ~[grpc-netty-shaded-1.40.1.jar:1.40.1]
+
