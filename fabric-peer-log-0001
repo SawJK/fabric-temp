@@ -1,0 +1,301 @@
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.694 +08 [extcc] Stream -> DEBU 0c8 Starting external chaincode connection: TestHLF:9081c95c231420aff76d311b14ae0eb468c199ee7aecea6e74934b588e3a3672
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.694 +08 [grpc] Infof -> DEBU 0c9 parsed scheme: ""
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.694 +08 [grpc] Infof -> DEBU 0ca scheme "" not registered, fallback to default scheme
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.694 +08 [grpc] Infof -> DEBU 0cb ccResolverWrapper: sending update to cc: {[{192.168.196.1:9999  <nil> 0 <nil>}] <nil> <nil>}
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.694 +08 [grpc] Infof -> DEBU 0cc ClientConn switching balancer to "pick_first"
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.694 +08 [grpc] Infof -> DEBU 0cd Channel switches to new LB policy "pick_first"
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.694 +08 [grpc] Infof -> DEBU 0ce Subchannel Connectivity change to CONNECTING
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [grpc] Infof -> DEBU 0cf Subchannel picks a new address "192.168.196.1:9999" to connect
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [grpc] UpdateSubConnState -> DEBU 0d0 pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {CONNECTING <nil>}
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [grpc] Infof -> DEBU 0d1 Channel Connectivity change to CONNECTING
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [ledgermgmt] OpenLedger -> INFO 0d2 Opened ledger with id = orderer-channel
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [lockbasedtxmgr] newQueryExecutor -> DEBU 0d3 constructing new query executor txid = [fbdea531-e309-4114-a717-7c24c289bba3]
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [stateleveldb] GetState -> DEBU 0d4 GetState(). ns=, key=CHANNEL_CONFIG_ENV_BYTES
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [lockbasedtxmgr] Done -> DEBU 0d5 Done with transaction simulation / query execution [fbdea531-e309-4114-a717-7c24c289bba3]
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] NewStandardValues -> DEBU 0d6 Initializing protos for *channelconfig.ChannelProtos
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0d7 Processing field: HashingAlgorithm
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0d8 Processing field: BlockDataHashingStructure
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0d9 Processing field: OrdererAddresses
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0da Processing field: Consortium
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0db Processing field: Capabilities
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] NewStandardValues -> DEBU 0dc Initializing protos for *channelconfig.OrdererProtos
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0dd Processing field: ConsensusType
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0de Processing field: BatchSize
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0df Processing field: BatchTimeout
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0e0 Processing field: KafkaBrokers
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0e1 Processing field: ChannelRestrictions
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0e2 Processing field: Capabilities
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] NewStandardValues -> DEBU 0e3 Initializing protos for *channelconfig.OrdererOrgProtos
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0e4 Processing field: Endpoints
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] NewStandardValues -> DEBU 0e5 Initializing protos for *channelconfig.OrganizationProtos
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0e6 Processing field: MSP
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [common.channelconfig] validateMSP -> DEBU 0e7 Setting up MSP for org HalalFoodPG
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [msp] newBccspMsp -> DEBU 0e8 Creating BCCSP-based MSP instance
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [msp] New -> DEBU 0e9 Creating Cache-MSP instance
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.695 +08 [msp] Setup -> DEBU 0ea Setting up MSP instance HalalFoodPG
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [common.channelconfig] NewStandardValues -> DEBU 0ec Initializing protos for *channelconfig.ApplicationProtos
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0ed Processing field: ACLs
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0ee Processing field: Capabilities
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [common.channelconfig] NewStandardValues -> DEBU 0ef Initializing protos for *channelconfig.ApplicationOrgProtos
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0f0 Processing field: AnchorPeers
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [common.channelconfig] NewStandardValues -> DEBU 0f1 Initializing protos for *channelconfig.OrganizationProtos
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [common.channelconfig] initializeProtosStruct -> DEBU 0f2 Processing field: MSP
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [common.channelconfig] Validate -> DEBU 0f3 Anchor peers for org MyOrg1 are
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [common.channelconfig] validateMSP -> DEBU 0f4 Setting up MSP for org MyOrg1
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [msp] newBccspMsp -> DEBU 0f5 Creating BCCSP-based MSP instance
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [msp] New -> DEBU 0f6 Creating Cache-MSP instance
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.696 +08 [msp] Setup -> DEBU 0f7 Setting up MSP instance MyOrg1
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.697 +08 [msp] Setup -> DEBU 0f9 Setting up the MSP manager (2 msps)
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.697 +08 [msp] Setup -> DEBU 0fa MSP manager setup complete, setup 2 msps
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.698 +08 [common.capabilities] Supported -> DEBU 136 Application capability V2_0 is supported and is enabled
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.698 +08 [common.capabilities] Supported -> DEBU 137 Channel capability V2_0 is supported and is enabled
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.698 +08 [peer.orderers] Update -> DEBU 14b Processing updates for orderer endpoints channel=orderer-channel
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.698 +08 [peer.orderers] Update -> DEBU 14c Found orderer org 'HalalFoodPG' has updates channel=orderer-channel
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.698 +08 [peer.orderers] Update -> DEBU 14d Returning an orderer connection pool source with org specific endpoints only channel=orderer-channel
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.698 +08 [msp.identity] Sign -> DEBU 152 Sign: plaintext: 18057A5E121408CFB7869DF4C6C6D116...E5CF42B4FE45D5A6604F6C842A020801
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.698 +08 [msp.identity] Sign -> DEBU 153 Sign: digest: 5F067BEA34C4299F3531E928ADF77B216D863B81BE26E73C75E2457BB78A8A3F
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.698 +08 [msp.identity] Sign -> DEBU 157 Sign: plaintext: 00000000000000000000000000000000...00000000000000000000000000000000
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.698 +08 [msp.identity] Sign -> DEBU 158 Sign: digest: 66687AADF862BD776C8FC18B8E9F8E20089714856EE233B3902A591D0D5F2925
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [deliveryClient] StartDeliverForChannel -> INFO 15d This peer will retrieve blocks from ordering service and disseminate to other peers in the organization for channel orderer-channel
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [peer] initChannel -> DEBU 15e Initializing channel orderer-channel
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [lockbasedtxmgr] newQueryExecutor -> DEBU 15f constructing new query executor txid = [9781cdac-d502-44dc-96ed-44a4af599cc9]
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [discovery.lifecycle] DeployedChaincodes -> DEBU 160 Returning []
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [lockbasedtxmgr] Done -> DEBU 161 Done with transaction simulation / query execution [9781cdac-d502-44dc-96ed-44a4af599cc9]
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [msp.identity] Sign -> DEBU 162 Sign: plaintext: 18057A7D121408CFB7869DF4C6C6D116...0F0A0A5F6C6966656379636C65120131
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [msp.identity] Sign -> DEBU 163 Sign: digest: 4CBEB96C46590391B352B22D1B40A43DFB24D0143505B8A17C313649C4391926
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [discovery.lifecycle] fireChangeListeners -> DEBU 164 Listeners for channel orderer-channel invoked
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [discovery] NewService -> INFO 165 Created with config TLS: false, authCacheMaxSize: 1000, authCachePurgeRatio: 0.750000
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [nodeCmd] registerDiscoveryService -> INFO 166 Discovery service activated
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [nodeCmd] serve -> INFO 167 Starting peer with ID=[MyOrg1], network ID=[MyOrg1], address=[192.168.196.134:7051]
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [msp.identity] Sign -> DEBU 168 Sign: plaintext: 0A85080A1B08051A0608FA8CE7890622...03120D1A0B08FFFFFFFFFFFFFFFFFF01
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [msp.identity] Sign -> DEBU 169 Sign: digest: FC76BFB6D7846283C964EB92A28B637AB6D5FE19AFCBC0E91C10458BB8E1745E
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [grpc] Infof -> DEBU 16a parsed scheme: ""
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [grpc] Infof -> DEBU 16b scheme "" not registered, fallback to default scheme
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [grpc] Infof -> DEBU 16c ccResolverWrapper: sending update to cc: {[{orderer.halalfoodpg.finexusgroup.com:7050  <nil> 0 <nil>}] <nil> <nil>}
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [grpc] Infof -> DEBU 16d ClientConn switching balancer to "pick_first"
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [grpc] Infof -> DEBU 16e Channel switches to new LB policy "pick_first"
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [grpc] Infof -> DEBU 16f Subchannel Connectivity change to CONNECTING
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.701 +08 [grpc] Infof -> DEBU 170 Subchannel picks a new address "orderer.halalfoodpg.finexusgroup.com:7050" to connect
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.702 +08 [nodeCmd] serve -> INFO 171 Started peer with ID=[MyOrg1], network ID=[MyOrg1], address=[192.168.196.134:7051]
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.702 +08 [kvledger] LoadPreResetHeight -> INFO 172 Loading prereset height from path [/appl/blockchain/HalalFoodPG/peerOrganizations/finexusgroup.com/_data/ledgersData/chains]
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.702 +08 [blkstorage] LoadPreResetHeight -> DEBU 173 Loading Pre-reset heights
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.702 +08 [grpc] UpdateSubConnState -> DEBU 174 pickfirstBalancer: HandleSubConnStateChange: 0xc0038d2450, {CONNECTING <nil>}
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.702 +08 [grpc] Infof -> DEBU 175 Channel Connectivity change to CONNECTING
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.702 +08 [grpc] Infof -> DEBU 176 Subchannel Connectivity change to READY
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.702 +08 [grpc] UpdateSubConnState -> DEBU 177 pickfirstBalancer: HandleSubConnStateChange: 0xc0038d2450, {READY <nil>}
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.702 +08 [grpc] Infof -> DEBU 178 Channel Connectivity change to READY
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.817 +08 [grpc] Infof -> DEBU 179 Subchannel Connectivity change to READY
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.817 +08 [grpc] UpdateSubConnState -> DEBU 17a pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {READY <nil>}
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.817 +08 [grpc] Infof -> DEBU 17b Channel Connectivity change to READY
+Sep 09 16:31:54 hyperledgerfabric peer[2576]: 2021-09-09 16:31:54.817 +08 [extcc] createConnection -> DEBU 17c Created external chaincode connection: TestHLF:9081c95c231420aff76d311b14ae0eb468c199ee7aecea6e74934b588e3a3672
+Sep 09 16:31:55 hyperledgerfabric peer[2576]: 2021-09-09 16:31:55.053 +08 [chaincode] handleMessage -> DEBU 17d [] Fabric side handling ChaincodeMessage of type: REGISTER in state created
+Sep 09 16:31:55 hyperledgerfabric peer[2576]: 2021-09-09 16:31:55.053 +08 [chaincode] HandleRegister -> DEBU 17e Received REGISTER in state created
+Sep 09 16:31:55 hyperledgerfabric peer[2576]: 2021-09-09 16:31:55.053 +08 [chaincode] Register -> DEBU 17f registered handler complete for chaincode TestHLF:faf2e95f07eeb641dc445e5b8c1ed4d838e08110e233f86d3a157369e8ab68f4
+Sep 09 16:31:55 hyperledgerfabric peer[2576]: 2021-09-09 16:31:55.053 +08 [chaincode] HandleRegister -> DEBU 180 Got REGISTER for chaincodeID = TestHLF:faf2e95f07eeb641dc445e5b8c1ed4d838e08110e233f86d3a157369e8ab68f4, sending back REGISTERED
+Sep 09 16:31:55 hyperledgerfabric peer[2576]: 2021-09-09 16:31:55.059 +08 [chaincode] HandleRegister -> DEBU 181 Changed state to established for TestHLF:faf2e95f07eeb641dc445e5b8c1ed4d838e08110e233f86d3a157369e8ab68f4
+Sep 09 16:31:55 hyperledgerfabric peer[2576]: 2021-09-09 16:31:55.059 +08 [chaincode] sendReady -> DEBU 182 sending READY for chaincode TestHLF:faf2e95f07eeb641dc445e5b8c1ed4d838e08110e233f86d3a157369e8ab68f4
+Sep 09 16:31:55 hyperledgerfabric peer[2576]: 2021-09-09 16:31:55.059 +08 [chaincode] sendReady -> DEBU 183 Changed to state ready for chaincode TestHLF:faf2e95f07eeb641dc445e5b8c1ed4d838e08110e233f86d3a157369e8ab68f4
+Sep 09 16:31:59 hyperledgerfabric peer[2576]: 2021-09-09 16:31:59.455 +08 [grpc] Infof -> DEBU 186 Subchannel Connectivity change to CONNECTING
+Sep 09 16:31:59 hyperledgerfabric peer[2576]: 2021-09-09 16:31:59.455 +08 [grpc] Infof -> DEBU 187 Subchannel picks a new address "192.168.196.1:9999" to connect
+Sep 09 16:31:59 hyperledgerfabric peer[2576]: 2021-09-09 16:31:59.455 +08 [grpc] UpdateSubConnState -> DEBU 188 pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {CONNECTING <nil>}
+Sep 09 16:31:59 hyperledgerfabric peer[2576]: 2021-09-09 16:31:59.455 +08 [grpc] Infof -> DEBU 189 Channel Connectivity change to CONNECTING
+Sep 09 16:31:59 hyperledgerfabric peer[2576]: 2021-09-09 16:31:59.465 +08 [grpc] Infof -> DEBU 18a Subchannel Connectivity change to READY
+Sep 09 16:31:59 hyperledgerfabric peer[2576]: 2021-09-09 16:31:59.465 +08 [grpc] UpdateSubConnState -> DEBU 18b pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {READY <nil>}
+Sep 09 16:31:59 hyperledgerfabric peer[2576]: 2021-09-09 16:31:59.466 +08 [grpc] Infof -> DEBU 18c Channel Connectivity change to READY
+
+... (same message repeating 5 times) ...
+
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.479 +08 [grpc] Infof -> DEBU 1d0 Subchannel Connectivity change to CONNECTING
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.479 +08 [grpc] infof -> DEBU 1d1 transport: loopyWriter.run returning. connection error: desc = "transport is closing"
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.479 +08 [grpc] UpdateSubConnState -> DEBU 1d2 pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {CONNECTING <nil>}
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.479 +08 [grpc] Infof -> DEBU 1d3 Channel Connectivity change to CONNECTING
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.479 +08 [grpc] Infof -> DEBU 1d4 Subchannel picks a new address "192.168.196.1:9999" to connect
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.486 +08 [grpc] Infof -> DEBU 1d5 Subchannel Connectivity change to READY
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.486 +08 [grpc] UpdateSubConnState -> DEBU 1d6 pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {READY <nil>}
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.486 +08 [grpc] Infof -> DEBU 1d7 Channel Connectivity change to READY
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.540 +08 [endorser] ProcessProposal -> DEBU 1d8 request from [::1]:39602
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.540 +08 [msp] DeserializeIdentity -> DEBU 1d9 Obtaining identity
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [msp] Validate -> DEBU 1db MSP MyOrg1 validating identity
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [msp] getCertificationChain -> DEBU 1dc MSP MyOrg1 getting certification chain
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [endorser] Validate -> DEBU 1dd creator is valid channel=orderer-channel txID=6beee4b1 mspID=MyOrg1
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [endorser] Validate -> DEBU 1e0 signature is valid channel=orderer-channel txID=6beee4b1 mspID=MyOrg1
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [blkstorage] retrieveTransactionByID -> DEBU 1e1 retrieveTransactionByID() - txId = [6beee4b1394198e8b2d7890c96d880f3aabbf3782932492ff3a0af3a5336fd50]
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [leveldbhelper] GetIterator -> DEBU 1e2 Getting iterator for range [[]byte{0x6f, 0x72, 0x64, 0x65, 0x72, 0x65, 0x72, 0x2d, 0x63, 0x68, 0x61, 0x6e, 0x6e, 0x65, 0x6c, 0x0, 0x74, 0x1, 0x40, 0x36, 0x62, 0x65, 0x65, 0x65, 0x34, 0x62, 0x31, 0x33, 0x39, 0x34, 0x31, 0x39, 0x38, 0x65, 0x38, 0x62, 0x32, 0x64, 0x37, 0x38, 0x39, 0x30, 0x63, 0x39, 0x36, 0x64, 0x38, 0x38, 0x30, 0x66, 0x33, 0x61, 0x61, 0x62, 0x62, 0x66, 0x33, 0x37, 0x38, 0x32, 0x39, 0x33, 0x32, 0x34, 0x39, 0x32, 0x66, 0x66, 0x33, 0x61, 0x30, 0x61, 0x66, 0x33, 0x61, 0x35, 0x33, 0x33, 0x36, 0x66, 0x64, 0x35, 0x30}] - [[]byte{0x6f, 0x72, 0x64, 0x65, 0x72, 0x65, 0x72, 0x2d, 0x63, 0x68, 0x61, 0x6e, 0x6e, 0x65, 0x6c, 0x0, 0x74, 0x1, 0x40, 0x36, 0x62, 0x65, 0x65, 0x65, 0x34, 0x62, 0x31, 0x33, 0x39, 0x34, 0x31, 0x39, 0x38, 0x65, 0x38, 0x62, 0x32, 0x64, 0x37, 0x38, 0x39, 0x30, 0x63, 0x39, 0x36, 0x64, 0x38, 0x38, 0x30, 0x66, 0x33, 0x61, 0x61, 0x62, 0x62, 0x66, 0x33, 0x37, 0x38, 0x32, 0x39, 0x33, 0x32, 0x34, 0x39, 0x32, 0x66, 0x66, 0x33, 0x61, 0x30, 0x61, 0x66, 0x33, 0x61, 0x35, 0x33, 0x33, 0x36, 0x66, 0x64, 0x35, 0x30, 0xff}]
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [aclmgmt] CheckACL -> DEBU 1e3 acl policy /Channel/Application/Writers found in config for resource peer/Propose
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [aclmgmt] CheckACL -> DEBU 1e4 acl check(/Channel/Application/Writers)
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [policies] EvaluateSignedData -> DEBU 1e5 == Evaluating *policies.ImplicitMetaPolicy Policy /Channel/Application/Writers ==
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [policies] EvaluateSignedData -> DEBU 1e6 This is an implicit meta policy, it will trigger other policy evaluations, whose failures may be benign
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [policies] EvaluateSignedData -> DEBU 1e7 == Evaluating *cauthdsl.policy Policy /Channel/Application/MyOrg1/Writers ==
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [policies] SignatureSetToValidIdentities -> DEBU 1ea signature for identity 0 validated
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [cauthdsl] func1 -> DEBU 1eb 0xc003a71340 gate 1631176349541951862 evaluation starts
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [cauthdsl] func2 -> DEBU 1ec 0xc003a71340 signed by 0 principal evaluation starts (used [false])
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.541 +08 [cauthdsl] func2 -> DEBU 1ed 0xc003a71340 processing identity 0 - &{MyOrg1 587d575f7860cf665b38e0b317821bc6dbd051389d7a12b552fd67eeb9b344d4}
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [msp] satisfiesPrincipalInternalPreV13 -> DEBU 1ee Checking if identity satisfies MEMBER role for MyOrg1
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [msp] Validate -> DEBU 1ef MSP MyOrg1 validating identity
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [cauthdsl] func2 -> DEBU 1f0 0xc003a71340 principal evaluation succeeds for identity 0
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [cauthdsl] func1 -> DEBU 1f1 0xc003a71340 gate 1631176349541951862 evaluation succeeds
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [policies] EvaluateSignedData -> DEBU 1f2 Signature set satisfies policy /Channel/Application/MyOrg1/Writers
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [policies] EvaluateSignedData -> DEBU 1f3 == Done Evaluating *cauthdsl.policy Policy /Channel/Application/MyOrg1/Writers
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [policies] EvaluateSignedData -> DEBU 1f4 Signature set satisfies policy /Channel/Application/Writers
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [policies] EvaluateSignedData -> DEBU 1f5 == Done Evaluating *policies.ImplicitMetaPolicy Policy /Channel/Application/Writers
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [lockbasedtxmgr] NewTxSimulator -> DEBU 1f6 constructing new tx simulator
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [lockbasedtxmgr] newQueryExecutor -> DEBU 1f7 constructing new query executor txid = [6beee4b1394198e8b2d7890c96d880f3aabbf3782932492ff3a0af3a5336fd50]
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [lockbasedtxmgr] newTxSimulator -> DEBU 1f8 constructing new tx simulator txid = [6beee4b1394198e8b2d7890c96d880f3aabbf3782932492ff3a0af3a5336fd50]
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [stateleveldb] GetState -> DEBU 1f9 GetState(). ns=_lifecycle, key=namespaces/fields/TestHLF/Sequence
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [chaincode] CheckInvocation -> DEBU 1fa [6beee4b1] getting chaincode data for TestHLF on channel orderer-channel
+Sep 09 16:32:29 hyperledgerfabric peer[2576]: 2021-09-09 16:32:29.542 +08 [stateleveldb] GetState -> DEBU 1fb GetState(). ns=_lifecycle, key=namespaces/fields/TestHLF/Sequence
+Sep 09 16:32:34 hyperledgerfabric peer[2576]: 2021-09-09 16:32:34.815 +08 [grpc] Infof -> DEBU 204 Subchannel Connectivity change to CONNECTING
+Sep 09 16:32:34 hyperledgerfabric peer[2576]: 2021-09-09 16:32:34.816 +08 [grpc] infof -> DEBU 205 transport: loopyWriter.run returning. connection error: desc = "transport is closing"
+Sep 09 16:32:34 hyperledgerfabric peer[2576]: 2021-09-09 16:32:34.816 +08 [grpc] UpdateSubConnState -> DEBU 206 pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {CONNECTING <nil>}
+Sep 09 16:32:34 hyperledgerfabric peer[2576]: 2021-09-09 16:32:34.816 +08 [grpc] Infof -> DEBU 207 Channel Connectivity change to CONNECTING
+Sep 09 16:32:34 hyperledgerfabric peer[2576]: 2021-09-09 16:32:34.816 +08 [grpc] Infof -> DEBU 208 Subchannel picks a new address "192.168.196.1:9999" to connect
+Sep 09 16:32:34 hyperledgerfabric peer[2576]: 2021-09-09 16:32:34.820 +08 [grpc] Infof -> DEBU 209 Subchannel Connectivity change to READY
+Sep 09 16:32:34 hyperledgerfabric peer[2576]: 2021-09-09 16:32:34.820 +08 [grpc] UpdateSubConnState -> DEBU 20a pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {READY <nil>}
+Sep 09 16:32:34 hyperledgerfabric peer[2576]: 2021-09-09 16:32:34.820 +08 [grpc] Infof -> DEBU 20b Channel Connectivity change to READY
+
+... (same message repeating 4 times) ...
+
+Sep 09 16:32:54 hyperledgerfabric peer[2576]: 2021-09-09 16:32:54.703 +08 [pvtdatastorage] GetMissingPvtDataInfoForMostRecentBlocks -> DEBU 240 fetching missing pvtdata entries from the prioritized list
+Sep 09 16:32:54 hyperledgerfabric peer[2576]: 2021-09-09 16:32:54.703 +08 [leveldbhelper] GetIterator -> DEBU 241 Getting iterator for range [[]byte{0x6f, 0x72, 0x64, 0x65, 0x72, 0x65, 0x72, 0x2d, 0x63, 0x68, 0x61, 0x6e, 0x6e, 0x65, 0x6c, 0x0, 0x4, 0x7, 0xfd}] - [[]byte{0x6f, 0x72, 0x64, 0x65, 0x72, 0x65, 0x72, 0x2d, 0x63, 0x68, 0x61, 0x6e, 0x6e, 0x65, 0x6c, 0x0, 0x4, 0x8}]
+Sep 09 16:32:59 hyperledgerfabric peer[2576]: 2021-09-09 16:32:59.198 +08 [grpc] Infof -> DEBU 245 Subchannel Connectivity change to CONNECTING
+Sep 09 16:32:59 hyperledgerfabric peer[2576]: 2021-09-09 16:32:59.199 +08 [grpc] infof -> DEBU 246 transport: loopyWriter.run returning. connection error: desc = "transport is closing"
+Sep 09 16:32:59 hyperledgerfabric peer[2576]: 2021-09-09 16:32:59.199 +08 [grpc] UpdateSubConnState -> DEBU 247 pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {CONNECTING <nil>}
+Sep 09 16:32:59 hyperledgerfabric peer[2576]: 2021-09-09 16:32:59.199 +08 [grpc] Infof -> DEBU 248 Channel Connectivity change to CONNECTING
+Sep 09 16:32:59 hyperledgerfabric peer[2576]: 2021-09-09 16:32:59.199 +08 [grpc] Infof -> DEBU 249 Subchannel picks a new address "192.168.196.1:9999" to connect
+Sep 09 16:32:59 hyperledgerfabric peer[2576]: 2021-09-09 16:32:59.204 +08 [grpc] Infof -> DEBU 24a Subchannel Connectivity change to READY
+Sep 09 16:32:59 hyperledgerfabric peer[2576]: 2021-09-09 16:32:59.204 +08 [grpc] UpdateSubConnState -> DEBU 24b pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {READY <nil>}
+Sep 09 16:32:59 hyperledgerfabric peer[2576]: 2021-09-09 16:32:59.204 +08 [grpc] Infof -> DEBU 24c Channel Connectivity change to READY
+
+... (same message repeating 46 times) ...
+
+Sep 09 16:36:53 hyperledgerfabric peer[2576]: 2021-09-09 16:36:53.589 +08 [grpc] Infof -> DEBU 4a4 Subchannel Connectivity change to CONNECTING
+Sep 09 16:36:53 hyperledgerfabric peer[2576]: 2021-09-09 16:36:53.589 +08 [grpc] infof -> DEBU 4a5 transport: loopyWriter.run returning. connection error: desc = "transport is closing"
+Sep 09 16:36:53 hyperledgerfabric peer[2576]: 2021-09-09 16:36:53.590 +08 [grpc] UpdateSubConnState -> DEBU 4a6 pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {CONNECTING <nil>}
+Sep 09 16:36:53 hyperledgerfabric peer[2576]: 2021-09-09 16:36:53.590 +08 [grpc] Infof -> DEBU 4a7 Channel Connectivity change to CONNECTING
+Sep 09 16:36:53 hyperledgerfabric peer[2576]: 2021-09-09 16:36:53.590 +08 [grpc] Infof -> DEBU 4a8 Subchannel picks a new address "192.168.196.1:9999" to connect
+Sep 09 16:36:53 hyperledgerfabric peer[2576]: 2021-09-09 16:36:53.596 +08 [grpc] Infof -> DEBU 4a9 Subchannel Connectivity change to READY
+Sep 09 16:36:53 hyperledgerfabric peer[2576]: 2021-09-09 16:36:53.597 +08 [grpc] UpdateSubConnState -> DEBU 4aa pickfirstBalancer: HandleSubConnStateChange: 0xc000565230, {READY <nil>}
+Sep 09 16:36:53 hyperledgerfabric peer[2576]: 2021-09-09 16:36:53.597 +08 [grpc] Infof -> DEBU 4ab Channel Connectivity change to READY
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.695 +08 [chaincode] Launch -> DEBU 4ac launch complete
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.695 +08 [endorser] callChaincode -> INFO 4ae finished chaincode: TestHLF duration: 265153ms channel=orderer-channel txID=6beee4b1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.696 +08 [endorser] SimulateProposal -> ERRO 4af failed to invoke chaincode TestHLF, error: timeout expired while starting chaincode TestHLF:9081c95c231420aff76d311b14ae0eb468c199ee7aecea6e74934b588e3a3672 for transaction
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/chaincode.(*RuntimeLauncher).Launch
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/chaincode/runtime_launcher.go:130
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/internal/peer/node.custodianLauncherAdapter.Launch
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/internal/peer/node/start.go:180
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/chaincode/lifecycle.(*ChaincodeCustodian).Work
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/chaincode/lifecycle/custodian.go:102
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: runtime.goexit
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /usr/local/go/src/runtime/asm_amd64.s:1374
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: chaincode registration failed
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: could not launch chaincode TestHLF:9081c95c231420aff76d311b14ae0eb468c199ee7aecea6e74934b588e3a3672
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/chaincode.(*ChaincodeSupport).Launch
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/chaincode/chaincode_support.go:85
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/chaincode.(*ChaincodeSupport).Invoke
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/chaincode/chaincode_support.go:197
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/chaincode.(*ChaincodeSupport).Execute
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/chaincode/chaincode_support.go:155
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/endorser.(*SupportImpl).Execute
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/endorser/support.go:126
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/endorser.(*Endorser).callChaincode
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/endorser/endorser.go:119
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/endorser.(*Endorser).SimulateProposal
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/endorser/endorser.go:187
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/endorser.(*Endorser).ProcessProposalSuccessfullyOrError
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/endorser/endorser.go:398
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/endorser.(*Endorser).ProcessProposal
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/endorser/endorser.go:340
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/handlers/auth/filter.(*expirationCheckFilter).ProcessProposal
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/handlers/auth/filter/expiration.go:61
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/handlers/auth/filter.(*filter).ProcessProposal
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/handlers/auth/filter/filter.go:32
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric-protos-go/peer._Endorser_ProcessProposal_Handler.func1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/hyperledger/fabric-protos-go/peer/peer.pb.go:107
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/internal/peer/node.unaryGrpcLimiter.func1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/internal/peer/node/grpc_limiters.go:51
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1.1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:25
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/common/grpclogging.UnaryServerInterceptor.func1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/common/grpclogging/server.go:92
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1.1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:25
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/common/grpcmetrics.UnaryServerInterceptor.func1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/common/grpcmetrics/interceptor.go:31
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1.1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:25
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:34
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric-protos-go/peer._Endorser_ProcessProposal_Handler
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/hyperledger/fabric-protos-go/peer/peer.pb.go:109
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: google.golang.org/grpc.(*Server).processUnaryRPC
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:1082
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: google.golang.org/grpc.(*Server).handleStream
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:1405
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: google.golang.org/grpc.(*Server).serveStreams.func1.1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:746
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: runtime.goexit
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /usr/local/go/src/runtime/asm_amd64.s:1374
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: failed to execute transaction 6beee4b1394198e8b2d7890c96d880f3aabbf3782932492ff3a0af3a5336fd50
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/chaincode.processChaincodeExecutionResult
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/chaincode/chaincode_support.go:161
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/chaincode.(*ChaincodeSupport).Execute
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/chaincode/chaincode_support.go:156
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/endorser.(*SupportImpl).Execute
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/endorser/support.go:126
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/endorser.(*Endorser).callChaincode
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/endorser/endorser.go:119
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/endorser.(*Endorser).SimulateProposal
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/endorser/endorser.go:187
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/endorser.(*Endorser).ProcessProposalSuccessfullyOrError
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/endorser/endorser.go:398
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/endorser.(*Endorser).ProcessProposal
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/endorser/endorser.go:340
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/handlers/auth/filter.(*expirationCheckFilter).ProcessProposal
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/handlers/auth/filter/expiration.go:61
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/handlers/auth/filter.(*filter).ProcessProposal
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/handlers/auth/filter/filter.go:32
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric-protos-go/peer._Endorser_ProcessProposal_Handler.func1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/hyperledger/fabric-protos-go/peer/peer.pb.go:107
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/internal/peer/node.unaryGrpcLimiter.func1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/internal/peer/node/grpc_limiters.go:51
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1.1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:25
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/common/grpclogging.UnaryServerInterceptor.func1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/common/grpclogging/server.go:92
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1.1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:25
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/common/grpcmetrics.UnaryServerInterceptor.func1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/common/grpcmetrics/interceptor.go:31
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1.1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:25
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/grpc-ecosystem/go-grpc-middleware/chain.go:34
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric-protos-go/peer._Endorser_ProcessProposal_Handler
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/github.com/hyperledger/fabric-protos-go/peer/peer.pb.go:109
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: google.golang.org/grpc.(*Server).processUnaryRPC
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:1082
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: google.golang.org/grpc.(*Server).handleStream
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:1405
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: google.golang.org/grpc.(*Server).serveStreams.func1.1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/vendor/google.golang.org/grpc/server.go:746
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: runtime.goexit
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /usr/local/go/src/runtime/asm_amd64.s:1374 channel=orderer-channel txID=6beee4b1
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.696 +08 [lockbasedtxmgr] Done -> DEBU 4b0 Done with transaction simulation / query execution [6beee4b1394198e8b2d7890c96d880f3aabbf3782932492ff3a0af3a5336fd50]
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.696 +08 [endorser] ProcessProposal -> WARN 4b1 Failed to invoke chaincode channel=orderer-channel chaincode=TestHLF error="error in simulation: failed to execute transaction 6beee4b1394198e8b2d7890c96d880f3aabbf3782932492ff3a0af3a5336fd50: could not launch chaincode TestHLF:9081c95c231420aff76d311b14ae0eb468c199ee7aecea6e74934b588e3a3672: chaincode registration failed: timeout expired while starting chaincode TestHLF:9081c95c231420aff76d311b14ae0eb468c199ee7aecea6e74934b588e3a3672 for transaction"
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.696 +08 [comm.grpc.server] 1 -> INFO 4b2 unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=[::1]:39602 grpc.code=OK grpc.call_duration=4m25.156016899s
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.695 +08 [chaincode] Launch -> DEBU 4ad stopping due to error while launching: timeout expired while starting chaincode TestHLF:9081c95c231420aff76d311b14ae0eb468c199ee7aecea6e74934b588e3a3672 for transaction
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/chaincode.(*RuntimeLauncher).Launch
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/chaincode/runtime_launcher.go:130
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/internal/peer/node.custodianLauncherAdapter.Launch
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/internal/peer/node/start.go:180
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: github.com/hyperledger/fabric/core/chaincode/lifecycle.(*ChaincodeCustodian).Work
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /__w/1/go/src/github.com/hyperledger/fabric/core/chaincode/lifecycle/custodian.go:102
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: runtime.goexit
+Sep 09 16:36:54 hyperledgerfabric peer[2576]:         /usr/local/go/src/runtime/asm_amd64.s:1374
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.696 +08 [chaincode] Launch -> DEBU 4b4 launch complete
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.696 +08 [chaincode] Deregister -> DEBU 4b5 deregister handler: TestHLF:9081c95c231420aff76d311b14ae0eb468c199ee7aecea6e74934b588e3a3672
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.696 +08 [lifecycle] Work -> WARN 4b6 could not launch chaincode 'TestHLF:9081c95c231420aff76d311b14ae0eb468c199ee7aecea6e74934b588e3a3672': timeout expired while starting chaincode TestHLF:9081c95c231420aff76d311b14ae0eb468c199ee7aecea6e74934b588e3a3672 for transaction
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.701 +08 [grpc] infof -> DEBU 4b8 transport: loopyWriter.run returning. connection error: desc = "transport is closing"
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.701 +08 [grpc] infof -> DEBU 4b9 transport: loopyWriter.run returning. connection error: desc = "transport is closing"
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.711 +08 [pvtdatastorage] GetMissingPvtDataInfoForMostRecentBlocks -> DEBU 4bb fetching missing pvtdata entries from the prioritized list
+Sep 09 16:36:54 hyperledgerfabric peer[2576]: 2021-09-09 16:36:54.711 +08 [leveldbhelper] GetIterator -> DEBU 4bc Getting iterator for range [[]byte{0x6f, 0x72, 0x64, 0x65, 0x72, 0x65, 0x72, 0x2d, 0x63, 0x68, 0x61, 0x6e, 0x6e, 0x65, 0x6c, 0x0, 0x4, 0x7, 0xfd}] - [[]byte{0x6f, 0x72, 0x64, 0x65, 0x72, 0x65, 0x72, 0x2d, 0x63, 0x68, 0x61, 0x6e, 0x6e, 0x65, 0x6c, 0x0, 0x4, 0x8}]
